@@ -1,16 +1,22 @@
+<!--
+ * @Descripttion: 
+ * @Author: Fone丶峰
+ * @LastModifiedBy: Fone丶峰
+ * @Date: 2019-08-02 16:55:22
+ * @LastEditors: Fone丶峰
+ * @LastEditTime: 2019-08-02 17:50:09
+ * @email: 15921712019@163.com
+ * @gitHub: https://github.com/FoneQinrf
+ -->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style lang="less">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
